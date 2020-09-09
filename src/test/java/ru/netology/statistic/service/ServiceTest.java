@@ -20,8 +20,8 @@ class ServiceTest {
     void findMax1() {
         Service service = new Service();
 
-        long[] incomesInBillions = {12, 555, 8, 4, 5, 3, 8, 6, 11, 11, 12};
-        long expected = 555;
+        long[] incomesInBillions = {12, 5, 8, 44, 5, 3, 8, 6, 11, 11, 12};
+        long expected = 44;
 
         long actual = service.findMax(incomesInBillions);
 
